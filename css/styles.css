@@ -59,7 +59,7 @@ a.logo:before {
   background-color: rgba(0,0,0,.5);
 }
 nav.desk {
-  text-align: center;
+  text-align: right;
 }
 nav.desk ul {
   display: inline-block;
