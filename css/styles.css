@@ -68,6 +68,14 @@ nav.desk ul {
   color: #FF6600;
   transition: .5s;
 }
+.block {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 5px;
+}
 /*Go to top*/
 span#goTopSpan {
   color: #FA6600;
