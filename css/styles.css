@@ -99,7 +99,25 @@ nav.desk ul {
 }
 .team-item p + p {
   font-family: "BitterItalic";
-  font-size: 80%;
+  font-size: 60%;
+  margin-top: 5px;
+}
+.team-item .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.team-item .links a {
+  text-decoration: none;
+  color: #FF6600;
+  display: block;
+  width: 40px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: 5px;
+  border-radius: 100%;
 }
 .block {
   background-color: #FFFFFF;
