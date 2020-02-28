@@ -66,7 +66,7 @@ $(document).ready(function() {
       }
     }
   });
-  var dt = "February 29 2020 00:00:00";  
+  var dt = "May 02 2020 00:00:00";
   var first = new Date(dt);
   var last = Date.now();
   var rem = first - last;
