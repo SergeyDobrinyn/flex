@@ -4,11 +4,15 @@
 @media (min-width: 1200px) { .cont { width: 1170px; } }
 .cont {
   margin: 0 auto;
-  padding: 0 5px;
 }
 .wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.wrap:last-child {
+	margin-bottom: 0;
 }

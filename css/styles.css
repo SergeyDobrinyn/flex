@@ -15,11 +15,12 @@ body {
   position: relative;
   color: #FFFFFF;
 }
-header {
-  padding: 5px 0;
-}
-section, footer {
+header, section, footer {
+  padding: 10px 0;
   color: #FFFFFF;
+}
+footer {
+  background-color: #FF6600;
 }
 h2 {
   text-align: center;
@@ -67,7 +68,6 @@ nav.desk ul {
   color: #FF6600;
   transition: .5s;
 }
-
 /*Go to top*/
 span#goTopSpan {
   color: #FA6600;
