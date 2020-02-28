@@ -1,6 +1,5 @@
 @import url(reset.css);
-@import url(grid.css);
-/*@import url(flex.css);*/
+@import url(flex.css);
 @import url(fonts.css);
 @import url(media.css);
 html {
