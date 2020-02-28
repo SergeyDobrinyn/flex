@@ -29,7 +29,6 @@ header {
 }
 section, footer {
   color: #FFFFFF;
-  padding: 20px;
 }
 h2 {
   text-align: center;
@@ -87,9 +86,13 @@ nav.desk ul {
   flex-direction: column;
   flex-grow: 1;
   flex-shrink: 0;
-  flex-basis: 200px;
+  flex-basis: 220px;
   justify-content: flex-start;
   align-items: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
 }
 .team-item img {
   display: block;
@@ -129,14 +132,6 @@ nav.desk ul {
 /*Map*/
 #map {
   height: 30em;
-}
-.block {
-  /*background-color: rgba(255,102,0,.5);*/
-  border-radius: 4px;
-  padding: 10px;
-  color: #FFFFFF;
-  text-align: center;
-  margin: 5px 0;
 }
 /*Go to top*/
 span#goTopSpan {
