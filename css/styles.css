@@ -70,6 +70,37 @@ nav.desk ul {
   color: #FF6600;
   transition: .5s;
 }
+.team-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}
+.team-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.team-item p {
+  text-align: center;
+  font-family: "BitterBoldItalic";
+}
+.team-item p + p {
+  font-family: "BitterItalic";
+  font-size: 80%;
+}
 .block {
   background-color: #FFFFFF;
   color: #000000;
