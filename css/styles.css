@@ -119,6 +119,11 @@ nav.desk ul {
   margin: 5px;
   border-radius: 100%;
 }
+#nominations p, #program p {
+  text-align: justify;
+  line-height: 1.4;
+  text-indent: 2rem;
+}
 .block {
   background-color: #FFFFFF;
   color: #000000;
@@ -127,6 +132,7 @@ nav.desk ul {
   flex-shrink: 1;
   flex-basis: 250px;
   margin: 5px;
+  min-height: 200px;
 }
 /*Go to top*/
 span#goTopSpan {
