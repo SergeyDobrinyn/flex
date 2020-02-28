@@ -55,7 +55,7 @@ $(document).ready(function() {
   $(".mobile .nav-link").on("click", function(){
     $(".mobile").slideToggle();
   });
-  $(document).mouseup(function (e){
+  $(document).mouseup(function(e){
     if (!$(".mobile").is(e.target) && $(".mobile").has(e.target).length === 0){
       $(".mobile").fadeOut();
     }
