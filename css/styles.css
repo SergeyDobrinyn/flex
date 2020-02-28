@@ -1,0 +1,144 @@
+@import url(reset.css);
+@import url(grid.css);
+/*@import url(flex.css);*/
+@import url(fonts.css);
+@import url(media.css);
+html {
+  font-family: "AFuturaRoundDemi";
+  font-size: 1.6rem;
+  color: #FF6600;
+}
+body {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #FFFFFF;
+}
+header {
+  padding: 5px 0;
+}
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  display: none;
+}
+section, footer {
+  color: #FFFFFF;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  font-size: 180%;
+}
+/*Logo*/
+a.logo {
+  color: #FF6600;
+  text-decoration: none;
+}
+a.logo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../img/logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  transition: .5s;
+  z-index: 999;
+  background-color: rgba(0,0,0,.5);
+}
+nav.desk {
+  text-align: center;
+}
+nav.desk ul {
+  display: inline-block;
+}
+.nav-link:hover {
+  color: #FF6600;
+  transition: .5s;
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.team-item img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+  border-radius: 100%;
+}
+.team-item p {
+  margin-bottom: 10px;
+}
+.team-item .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-item a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.team-item a:last-child {
+  margin-right: 0;
+}
+/*Counter*/
+#countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.clock {
+  width: auto;
+}
+/*Map*/
+#map {
+  height: 30em;
+}
+.block {
+  /*background-color: rgba(255,102,0,.5);*/
+  border-radius: 4px;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 5px 0;
+}
+/*Go to top*/
+span#goTopSpan {
+  color: #FA6600;
+  text-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  z-index: 999;
+}
