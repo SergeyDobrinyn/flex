@@ -2,6 +2,9 @@
   #burg, nav.mobile {
     display: none;
   }
+  nav.desk {
+    display: inline-block;
+  }
   nav.desk ul li {
     display: inline-block;
     margin-right: 20px;
