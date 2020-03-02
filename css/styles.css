@@ -140,3 +140,7 @@ span#goTopSpan {
   text-shadow: 0px 0px 4px rgba(0,0,0,.5);
   z-index: 999;
 }
+/*Modal window*/
+.modal {
+  display: none;
+}
