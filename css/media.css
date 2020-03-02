@@ -16,6 +16,9 @@
     color: #FFFFFF;
     text-decoration: none;
   }
+  .pop-up {
+    width: 350px;
+  }
 }
 @media only screen and (max-width: 767px) {
   nav.desk {
@@ -45,6 +48,9 @@
     text-align: center;
     text-decoration: none;
     color: #FFFFFF;
+  }
+  .pop-up {
+    width: 250px;
   }
 }
 @media only screen and (min-width: 1024px) {}
