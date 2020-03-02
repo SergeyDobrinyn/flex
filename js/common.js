@@ -60,6 +60,15 @@ $(document).ready(function() {
       $(".mobile").fadeOut();
     }
   });
+  //Pop-up
+  $(".popup-link").magnificPopup({
+    /*preloader: true,
+    callbacks: {
+      open: function(){
+        $(".block").method();
+      }
+    }*/
+  });
   //Counter
   var clock;
   clock = $(".clock").FlipClock({
